@@ -1,12 +1,19 @@
 #include <iostream>
 using namespace std;
 
+//...You have to print the pattern like given below
+//input --- >   4
+//output --->
+//*
+//* *
+//* * *
+//* * * *
 void patternrec(int n, int i)
 {
     // base case
     if (i == n)
     {
-        return 0;
+        return;
     }
 
     // recursice case

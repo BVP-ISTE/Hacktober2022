@@ -17,7 +17,7 @@ cout<<b[i]<<" ";
 }
  
 }
- 
+//...Error in above segment
 int main()
 {
 int n = 4;
@@ -26,7 +26,7 @@ for (int i = 0; i < n; i++)
 {
 cin>>a[i];
 }
-//Error in below segment
+
 reversearr(b,a,n);
 printarr(b , n);
  

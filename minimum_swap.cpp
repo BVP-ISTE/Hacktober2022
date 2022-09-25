@@ -7,7 +7,7 @@ int swapndcount(int a[] , int n){
     {
         for (int j = 0; j < n-i; j++)
         {
-            if (a[j]>a[j+1])
+            if (a(j)>a(j+1))
             {
                 swap(a(j),a(j+1));
                 count++;
