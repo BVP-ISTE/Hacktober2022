@@ -1,1 +1,0 @@
-// Write a C++ program to swap first and last digits of any number.
