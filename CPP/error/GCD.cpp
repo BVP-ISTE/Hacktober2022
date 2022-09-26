@@ -16,9 +16,9 @@ int main()
     int gcd;
     if (N1 > N2)
     {
-        for (gcd = N2; gcd >= 1; gcd--)
+        for (gcd = N2; gcd > 1; gcd--)
         {
-            if (N1 % gcd == 0 && N2 % gcd == 0)
+            if (N1 % gcd >= 0 && N2 % gcd == 0)
             {
                 break;
             }
@@ -26,9 +26,9 @@ int main()
     }
     else
     {
-        for (gcd = N1; gcd >= 1; gcd--)
+        for (gcd = N1; gcd > 1; gcd--)
         {
-            if (N1 % gcd == 0 && N2 % gcd == 0)
+            if (N1 % gcd >= 0 && N2 % gcd == 0)
             {
                 break;
             }
