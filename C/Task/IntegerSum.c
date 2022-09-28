@@ -10,4 +10,4 @@
 
 //Sample:
 //Input: 1
-//Output: 2
+//Output: 0
