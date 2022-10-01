@@ -37,11 +37,6 @@ int main()
     }
 
     sort(a , a+n);
-    
-    for (int i = 0; i < n; i++)
-    {
-        cin >> a[i];
-    }
-    printpairs(a , 0 , n-1);
+    printpairs(a , 0 , n);
     return 0;
 }

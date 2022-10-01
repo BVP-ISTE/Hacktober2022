@@ -3,7 +3,7 @@ using namespace std;
  
 void reversearr(int b[], int a[], int N)
 {
-	int k=0;
+	int k=1;
    	for(int j=N-1;j>0;j--){
    		b[j]=a[k];
 		k++;
