@@ -1,4 +1,5 @@
 #include <stdio.h>
+//Sum of n odd numbers.
 void main()
 {
    int i,n,sum;
