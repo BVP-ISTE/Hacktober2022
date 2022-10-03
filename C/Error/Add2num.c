@@ -1,5 +1,6 @@
 #include <stdio.h>
 long addTwoNumbers(long *, long *);
+//Add 2 numbers using call by reference.
  
 int main()
 {
