@@ -1,4 +1,6 @@
 #include <stdio.h>
+//Convert the temperature in celsius to farhenheit.
+
 float temp_f;     
 float temp_c;     
 char line_text[2];        
