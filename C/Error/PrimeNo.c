@@ -1,4 +1,5 @@
 #include <stdio.h>
+//Display the prime numbers between a range.
 
 void main(){
     int num,i,ctr,stno,enno;
