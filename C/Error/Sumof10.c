@@ -1,4 +1,6 @@
 #include <stdio.h>
+//Sum of first 10 natural numbers.
+
 int main()
 {
     int  j, sum = 0;
