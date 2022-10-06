@@ -1,7 +1,7 @@
 <img src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png' width='10%' align='left'>
 <img src='https://lh3.googleusercontent.com/proxy/LEP3USenOt_Ce4-SvsgfSTpY8S5TqEnSYPHyJodoXA1EVS8rbCwsp8KGzr8X6IjFwkVqGKdfHdN6LZtrTHoeQeCLGpaIl7SvNjBSu1LzgrheNLjmHwWWnmqM' width='20%' align='right'>
 <h1 align="center"> Hacktoberfest 2022 </h1>
-<p align='center'><img src='https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg' width='55%'>
+<p align='center'><img src='./Logo-2-Color@2x.png' width='55%'>
 
 <p align='center'><h1 align='center'>Hola Amigos,<h4 style='font-style:italic'>
 Get ready for some crazy days of bugs,typos,erros and fun.... </h4> </h1></p>
