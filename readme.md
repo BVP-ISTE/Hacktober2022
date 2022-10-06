@@ -1,5 +1,5 @@
 <img src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png' width='10%' align='left'>
-<img src='https://lh3.googleusercontent.com/proxy/LEP3USenOt_Ce4-SvsgfSTpY8S5TqEnSYPHyJodoXA1EVS8rbCwsp8KGzr8X6IjFwkVqGKdfHdN6LZtrTHoeQeCLGpaIl7SvNjBSu1LzgrheNLjmHwWWnmqM' width='20%' align='right'>
+<!-- <img src='https://lh3.googleusercontent.com/proxy/LEP3USenOt_Ce4-SvsgfSTpY8S5TqEnSYPHyJodoXA1EVS8rbCwsp8KGzr8X6IjFwkVqGKdfHdN6LZtrTHoeQeCLGpaIl7SvNjBSu1LzgrheNLjmHwWWnmqM' width='20%' align='right'> -->
 <h1 align="center"> Hacktoberfest 2022 </h1>
 <p align='center'><img src='./Logo-2-Color@2x.png' width='55%'>
 
