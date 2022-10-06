@@ -15,11 +15,11 @@ Get ready for some crazy days of bugs,typos,erros and fun.... </h4> </h1></p>
 <li>Each folder is Language specific. </li>
 <li>Choose your suited language and see the erros folder inside it to debug 👩‍💻 or you can choose from various tasks provided in the tasks folder 🎯.</li>
 <li>Go to the issues page and find the one suits you.Make sure issues which you choose have the label
-<strong>Hactoberfest2021</strong> in them.</li>
-<li>Each Language folder contains the readme which will guide you how to do the tasks in it.</li>
+<strong>Hactoberfest</strong> in them.</li>
+<!-- <li>Each Language folder contains the readme which will guide you how to do the tasks in it.</li> -->
 <li>Fork the main content into your local system and make changes and pull the requests for the changes you have made .</li>
  <li>Submit the changes .</li>
-<li>PLEASE MAKE A SEPERATE PR FOR EACH ISSUE .SOLVING MORE THAN ONE ISSUE IN A SINGLE PR WILL RESULT IN REJECTION .</li>
+<li>PLEASE MAKE A SEPERATE PR FOR EACH ISSUE. SOLVING MORE THAN ONE ISSUE IN A SINGLE PR WILL RESULT IN REJECTION .</li>
 <li>Find the bug 🐞,correct it ✅ and make a PR ,let's see who rules the leaderboard 🥇.</li>
  
 </ul>
