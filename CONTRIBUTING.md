@@ -26,8 +26,8 @@ Get ready for some crazy days of bugs,typos,erros and fun.... </h4> </h1></p>
 
 <h4 align='center'>Top 10 Contributors </h4>
 
-<a align='center' href="https://github.com/BVP-ISTE/Hacktoberfest2022/graphs/contributors">
-  <img align='center' src="https://contrib.rocks/image?repo=BVP-ISTE/HacktoberFest2022&max=10" />
+<a align='center' href="https://github.com/BVP-ISTE/Hacktoberfest2020/graphs/contributors">
+  <img align='center' src="https://contrib.rocks/image?repo=BVP-ISTE/HacktoberFest2021&max=10" />
 </a>
 
 <br>
@@ -35,14 +35,14 @@ Get ready for some crazy days of bugs,typos,erros and fun.... </h4> </h1></p>
 <br>
 
 <p align="center">
-    <a href="https://github.com/BVP-ISTE/HacktoberFest2022/graphs/contributors" alt="Contributors">
-        <img src="https://img.shields.io/github/contributors/BVP-ISTE/HacktoberFest2022" /></a>
+    <a href="https://github.com/BVP-ISTE/HacktoberFest2021/graphs/contributors" alt="Contributors">
+        <img src="https://img.shields.io/github/contributors/BVP-ISTE/HacktoberFest2021" /></a>
    
- <a href="https://github.com/BVP-ISTE/HacktoberFest2022/pulse" alt="Activity">
-        <img src="https://img.shields.io/github/commit-activity/m/BVP-ISTE/HacktoberFest2022" /></a>
+ <a href="https://github.com/BVP-ISTE/HacktoberFest2021/pulse" alt="Activity">
+        <img src="https://img.shields.io/github/commit-activity/m/BVP-ISTE/HacktoberFest2021" /></a>
 <a href="https://github.com/BVP-ISTE/HacktoberFest2021/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">
 
-<img src="https://img.shields.io/github/issues/BVP-ISTE/HacktoberFest2022/good%20first%20issue">
+<img src="https://img.shields.io/github/issues/BVP-ISTE/HacktoberFest2021/good%20first%20issue">
 
 </a>
 
