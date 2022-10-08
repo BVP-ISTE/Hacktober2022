@@ -7,7 +7,7 @@
 Get ready for some crazy days of bugs,typos,erros and fun.... </h4> </h1></p>
  <br>
 
-### This repository contains code bases and issues that you can solve for the ongoing Hacktoberfest-2021.
+### This repository contains code bases and issues that you can solve for the ongoing Hacktoberfest-2022.
 
 #### Your Get Started Guide :-
 
