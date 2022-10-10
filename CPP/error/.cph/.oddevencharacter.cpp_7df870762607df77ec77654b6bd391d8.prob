@@ -1,0 +1,1 @@
+{"name":"Local: oddevencharacter","url":"d:\\Learning track\\hacktoberfest\\Hacktober2022\\CPP\\error\\oddevencharacter.cpp","tests":[{"id":1665415009570,"input":"efgh","output":"fehg"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Learning track\\hacktoberfest\\Hacktober2022\\CPP\\error\\oddevencharacter.cpp","group":"local","local":true}
