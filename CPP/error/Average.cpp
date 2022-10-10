@@ -1,25 +1,26 @@
-//Program to Find Average of Numbers
+// Program to Find Average of Numbers
 #include <iostream>
-using namespace std;
+
 int main()
 {
- int n, i;
- float num[100], sum=0.0, average;
+    int n, i;
+    float num[100], sum{0.0}, average{0.0};
 
- cout << "Enter the numbers of elements: ";
- cin >> n;
-//error in the below segment
-//-------------
- for(i = 0; i < n; --i)
- {
- cout << i + 1 << ". Enter number: ";
- cin << num[i];
- sum += num[i];
- }
- //-------------
+    std::cout << "Enter the numbers of elements: ";
+    std::cin >> n;
+    std::cout << '\n';
+    // error in the below segment
+    //-------------
+    for (i = 0; i < n; ++i)
+    {
+        std::cout << i + 1 << ". Enter number: ";
+        std::cin >> num[i];
+        std::cout << '\n';
+        sum += num[i];
+    }
+    //-------------
+    average = sum / n;
+    std::cout << "Average = " << average << std::endl;
 
- average = sum / n;
- cout << "Average = " << average;
-
- return 0;
-} 
+    return 0;
+}
