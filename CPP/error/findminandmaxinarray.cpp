@@ -15,7 +15,7 @@ int minNo = INT_MAX;
 for (int i = 0; i < n; i++)
 {
     maxNo = max(maxNo,arr[i]);
-     minNo = max(minNo,arr[i]);
+     minNo = min(minNo,arr[i]); //here is the issue:-  If we are finding the minimum number then we should take min not max
 }
 cout<<maxNo<<" "<<minNo<<endl;
 return 0;
