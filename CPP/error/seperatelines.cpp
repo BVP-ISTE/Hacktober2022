@@ -16,8 +16,8 @@ int main() {
 
     for(int i=0;i<n;i++)
     {
-        pr.push_back(s(i));
-        if(i==n) //last letter
+        pr.push_back(s[i]);            //pr.push_back(s(i));
+        if(i == n-1)        // if(i==n-1) //last letter
             cout<<pr<<endl;
         else if(s[i+1]>='A' && s[i+1]<='Z') //s[i+1] is a capital letter.
         {

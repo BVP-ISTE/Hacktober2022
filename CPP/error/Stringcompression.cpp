@@ -11,9 +11,9 @@ void compress(char a[]){
     int len=strlen(a);
     int j=0;
     while(j<len){
-        int cnt=1;
+        int cnt=1; //change cnt = 0 to cnt = 1
         while(j<=len-2 and a[j]==a[j+1]){
-            cnt++;
+            cnt++; //incremented each time while traversing to same charachter
             j++;
         }
         cout<<a[j];
