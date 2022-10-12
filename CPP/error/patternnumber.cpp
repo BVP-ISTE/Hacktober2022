@@ -7,8 +7,7 @@ using namespace std;
 // 7 8 9 10
 
 int main(){
-    int n = 4;
-    // cin>>n;
+    int n = 4;      
     int r , c;
     int no = 0;
     for ( r = 0; r < n; r++)
