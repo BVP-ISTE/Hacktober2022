@@ -9,3 +9,40 @@
 
 //Output Format:
 // Print 'C' lines, each line contains one pair i.e two space-separated integers, where 'C' denotes the count of pairs having sum equals to given value 'S'.
+# include<bits/stdc++.h>
+using namespace std;
+
+void print(vector<pair<int,int>>&result){
+    for(int i=0;i<result.size();i++){
+        cout<<result[i].first<<" "<<result[i].second<<endl;
+    }
+}
+void pairsum(vector<int> &v,int n,int s){
+    vector<pair<int,int>> result;
+    for(int i=0;i<n;i++){
+        for(int j=i+1;j<n;j++){
+            if(v[i]+v[j]==s){
+                result.push_back(make_pair(min(v[i],v[j]),max(v[i],v[j])));
+            }
+        }
+    }
+
+    sort(result.begin(),result.end());
+    print(result);
+}
+
+int main(){
+    int n,s;
+    cin>>n>>s;
+
+    vector<int> v;
+    for(int i=0;i<n;i++){
+        int no;
+        cin>>no;
+        v.push_back(no);
+    }
+
+    sort(v.begin(),v.end());
+    pairsum(v,n,s);
+    return 0;
+}

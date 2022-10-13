@@ -8,11 +8,11 @@ using namespace std;
 int main() {
 	char a[1000];
 	cin.getline(a,1000);
-	int len=strlen[a];
+	int len=strlen(a);
 	char x;
 	for(int i=0;i<len;i++){
 		if(i%2==0){
-			x+=a[i];
+			x=a[i]+1;
 			cout<<x;
 		}
 		else{
@@ -20,6 +20,5 @@ int main() {
 			cout<<x;
 		}
 	}
-	
 	return 0;
 }
