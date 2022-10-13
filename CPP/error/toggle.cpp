@@ -9,7 +9,7 @@ void toggle(char a[]){
 	int len = strlen(a);
 	char x;
 	for(int i=0;i<len;i++){
-		if(a[i]>65 and a[i]<90){
+		if(a[i]>=65 and a[i]<=90){
 			x=32 + a[i];
 			cout<<x;
 		}
