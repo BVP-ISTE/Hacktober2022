@@ -11,22 +11,17 @@ cout<<"enter number: ";
 cin>>n;
 for (int i = 1; i <= n; i++)
 {
-   int j;
-   for (j = 1; j <= n-i; j++)
+
+   for (int j = 1; j <= n-i; j++)
    {
       cout<<" ";
    }
-   int k = j;
-   for (; j <= n; j++)
-   {
-      cout<<k--;
-   }
-   k = 2;
-   for (; j <= n+i-1 ; j++)
-   {
-     cout<<k++;
-   }
+   
+   for(int j=i;j>=1;j--)
+   cout<<j;
+   
+   for(int j=2;j<=i;j++)
+   cout<<j;
    cout<<endl;
 }
- 
 }
