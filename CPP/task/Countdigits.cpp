@@ -1,30 +1,24 @@
-
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
-
-int frequencyDigits(int n, int d)
-{
-	int c = 0;
-	while (n > 0) {
-		
-		if (n % 10 == d)
-			c++;
-		n = n / 10;
-	}
-	return c;
-}
-
 int main()
 {
-	
-	int N;
-    cout<<"Input the digits";
-    cin>>N;
-    cout<<"Enter the number find the count:";
-	int D;
-    cin>>D;
-	cout<<"\n Count of "<<D<<" in "<<N<<" is ";
-	cout<<frequencyDigits(N,D);
+    int num, count, f, n;
+    count = 0;
+    cout << "Enter The Number: ";
+    cin >> num;
+    cout << "Enter The Number to be Counted: ";
+    cin >> f;
+    while (num != 0)
+    {
+        n = num % 10;
+        if (n == f)
+        {
+            count = count + 1;
+        }
+        num = num / 10;
+    }
+    cout << "count = ";
+    cout << count << endl;
 
-	return 0;
+    return 0;
 }
