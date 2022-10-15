@@ -7,7 +7,7 @@ using namespace std;
        {
             if (arr[i]==key)
             {
-            return 0;
+            return i;
             }
 
       }
