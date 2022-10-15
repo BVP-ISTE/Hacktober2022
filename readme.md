@@ -19,6 +19,7 @@ Get ready for some crazy days of bugs,typos,erros and fun.... </h4> </h1></p>
 <!-- <li>Each Language folder contains the readme which will guide you how to do the tasks in it.</li> -->
 <li>Fork the main content into your local system and make changes and pull the requests for the changes you have made .</li>
  <li>Submit the changes .</li>
+ <li>Mention the issue number solved in the PR description.</li>
 <li>PLEASE MAKE A SEPERATE PR FOR EACH ISSUE. SOLVING MORE THAN ONE ISSUE IN A SINGLE PR WILL RESULT IN REJECTION .</li>
 <li>Find the bug 🐞,correct it ✅ and make a PR ,let's see who rules the leaderboard 🥇.</li>
  
