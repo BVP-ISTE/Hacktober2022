@@ -17,3 +17,38 @@
 //Expected Output
 //true
 //false
+#include<stdio.h>
+#include <math.h>
+
+int isPerfectSquare(int number)
+{
+    int iVar;
+    float fVar;
+ 
+    fVar=sqrt((double)number);
+    iVar=fVar;
+ 
+    if(iVar==fVar)
+        return 1;
+    else
+        return 0;
+}
+
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    int arr[n];
+	int i;
+    for(i=0; i<n; i++){
+    scanf("%d", &arr[i]);
+    }
+    for(i=0;i<n; i++){
+        if(isPerfectSquare(arr[i])==1)
+        printf("true\n");
+        else
+        printf("false\n");
+    }
+
+    return 0;
+}
