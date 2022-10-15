@@ -42,4 +42,3 @@ int main()
     cin>>a;
     int b=reverse_int(a);
     cout<<b;
-}
