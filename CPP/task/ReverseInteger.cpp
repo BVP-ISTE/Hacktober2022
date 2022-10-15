@@ -22,36 +22,23 @@
 
 // -231 <= x <= 231 - 1
 
-#include <bits/stdc++.h>
+# include <iostream>
 using namespace std;
-int reversDigits(int num) {
-	
-	int rev = 0 ;
-	
-	while(num != 0){		
-		int rem = num % 10 ;
-		num /= 10 ;
-		
-		if(rev > INT_MAX/10 || rev == INT_MAX/10 && rem > 7){
-			return 0 ;
-		}
-		
-		if(rev < INT_MIN/10 || rev == INT_MIN/10 && rem < -8){
-			return 0 ;
-		}
-		
-		rev = rev*10 + rem ;
-	}
-	
-	return rev ;
-	
+int reverse_int(int n)
+{
+    int rev=0;
+    while(n>0)
+    {
+        int digit=n%10;
+        rev*=10;
+        rev+=digit;
+        n/=10;
+    }
+    return rev;
 }
 int main()
 {
-	int num;
-    cout<<"Enter the number";
-    cin>>num;
-	cout << "Reverse of no. is "
-		<< reversDigits(num) << endl;
-	return 0;
-}
+    int a;
+    cin>>a;
+    int b=reverse_int(a);
+    cout<<b;
