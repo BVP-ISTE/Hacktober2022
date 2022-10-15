@@ -21,3 +21,18 @@
 # Explanation: The array represents the integer 9.
 # Incrementing by one gives 9 + 1 = 10.
 # Thus, the result should be [1,0].
+
+class Solution:
+    def plusOne(self, digits: List[int]) -> List[int]:
+        l = len(digits)-1
+        temp = 1
+        while temp:
+            if l<0:
+                digits.insert(0, 1)
+                return digits
+            d = digits[l]+1
+            temp = d//10
+            d = d%10
+            digits[l] = d
+            l-=1
+        return digits
