@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 #all prime numbers
 #find and correct the error in the code
 n=int(input())
@@ -15,4 +9,3 @@ for i in range (2,(n+1)):
             break
     if isPrime:
         print(i)
-
