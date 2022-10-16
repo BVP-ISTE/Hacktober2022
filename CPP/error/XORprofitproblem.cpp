@@ -8,19 +8,21 @@ using namespace std;
 // Output
 // 3
 int main(){
-    int a,b;
-    int max = INT_MAX;
-    cin>>a>>b;
-
-    for(int i = a; i<=b;i++){
-        for(int j = a+1;j<=b;j++){
-            if((i^j)>max){
-                max=(i^j);
-            }
-        }
-    }
-
-    cout<<max<<endl;
-
-    return 0;
+   int a, b;
+   cin>>a>>b;
+   int aXb = a ^ b;
+   int msbPos = 0;
+   while (aXb) {
+      msbPos++;
+      aXb >>= 1;
+   }
+   int maxXOR = 0;
+   int two = 1;
+   while (msbPos--) {
+      maxXOR += two;
+      two <<= 1;
+   }
+   cout<<maxXOR<<endl;
+   
+   return 0;
 }
