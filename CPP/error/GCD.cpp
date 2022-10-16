@@ -13,28 +13,13 @@ int main()
     int N1, N2;
     cin >> N1;
     cin >> N2;
-    int gcd;
-    if (N1 > N2)
-    {
-        for (gcd = N2; gcd > 1; gcd--)
-        {
-            if (N1 % gcd >= 0 && N2 % gcd == 0)
-            {
-                break;
-            }
+    int gcd=min(N1,N2);
+    while (gcd > 0) {
+        if (N1 % gcd == 0 && N2 % gcd == 0) {
+            break;
         }
+        gcd--;
     }
-    else
-    {
-        for (gcd = N1; gcd > 1; gcd--)
-        {
-            if (N1 % gcd >= 0 && N2 % gcd == 0)
-            {
-                break;
-            }
-        }
-    }
-
     cout << gcd;
     return 0;
 }
