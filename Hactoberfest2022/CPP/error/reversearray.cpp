@@ -3,15 +3,15 @@ using namespace std;
  
 void reversearr(int b[], int a[], int N)
 {
-	int k=1;
-   	for(int j=N-1;j>0;j--){
-   		b[j]=a[k];
+	int k=0;
+   	for(int j=N-1;j>=0;j--){
+   		b[k]=a[j];
 		k++;
    }
 }
  
 void printarr(int b[] , int n){
-for (int i = 0; i <= n; i++)
+for (int i = 0; i < n; i++)
 {
 cout<<b[i]<<" ";
 }
