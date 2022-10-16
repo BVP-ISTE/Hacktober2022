@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 # Maximum Frequency
 
 #Program to find and return the number which occurs the 
@@ -28,5 +22,9 @@ def maxFreq(l):
 # Main
 # n = int(input()) # also I don't know why you are taking n as input. 
 l = list(str(i) for i in input().strip().split(' '))
-print(maxFreq(l))
+res = max(set(l), key = l.count)
+print(res)
 
+
+
+# %%
