@@ -16,15 +16,15 @@ void patternrec(int n, int i)
         return;
     }
 
-    // recursice case
-    for (int j = 0; j < i; j++)
+    // recursive case
+    for (int j = 0; j <= i; j++)
     {
         cout << "*"
              << " ";
     }
     cout << endl;
 
-    patternrec(n, i);
+    patternrec(n, i+1);
 }
 
 int main()
