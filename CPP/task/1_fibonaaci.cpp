@@ -1,18 +1,17 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
+int fibonacciSeries(int n){
+   if(n==0 or n==1){
+       return n;
+   }
+
+   return fibonacciSeries(n-1)+fibonacciSeries(n-2);
+}
+
 int main() {
-	int i,f=0,s=1,n,c=0;
-	cin>>n;
-	for(i=0;i<=n;i++){
-		if(i==0||i==1){
-			continue;
-		}
-		else{
-		c=f+s;
-		f=s;
-		s=c;
-		}
-	}
-	cout<<c;
-	return 0;
+    int x;
+    cin>>x;
+    int res=fibonacciSeries(x);
+    cout<<res;
+    return 0;
 }
