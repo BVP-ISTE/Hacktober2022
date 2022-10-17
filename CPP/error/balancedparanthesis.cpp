@@ -4,7 +4,7 @@ using namespace std;
 void paranthesis(char *a, int n,int o,int c,int i){
     // base case
     if(i == 2*n){
-        a[i]=='\0';
+        a[i]='\0';
         cout<<a<<endl;
         return;
     }
@@ -12,11 +12,11 @@ void paranthesis(char *a, int n,int o,int c,int i){
     //recursive case
     if(o>c){
         a[i] = ')';
-        paranthesis(a,n,o,c,i+1);
+        paranthesis(a,n,o,c+1,i+1);
     }
     if(o<n){
         a[i]= '(';
-        paranthesis(a,n,o+1,c+1,i+1);
+        paranthesis(a,n,o+1,c,i+1);
     }
 }
 
