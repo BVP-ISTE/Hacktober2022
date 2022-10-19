@@ -63,3 +63,4 @@ int main()
         cout << minsum << endl;
     }
     return 0;
+}   // Bracket was missing

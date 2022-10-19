@@ -1,4 +1,4 @@
-# include<iostream>
+#include<iostream>
 using namespace std;
 //to calculate permutations of a string
 void per(char *a,int i){
@@ -12,6 +12,7 @@ void per(char *a,int i){
     for(int j = i;a[j]!='\0';j++){
         swap(a[i],a[j]);
         per(a,i+1);
+        swap(a[i],a[j]);
     }
 }
 

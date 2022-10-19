@@ -1,4 +1,5 @@
 // Take N (number in binary format). Write a function that converts it to decimal format and Print the value returned.
+
 #include <iostream>
 #include <cmath>
 

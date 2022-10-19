@@ -9,11 +9,11 @@ using namespace std;
 // 3
 int main(){
     int a,b;
-    int max = INT_MAX;
+    int max = INT_MIN;
     cin>>a>>b;
 
     for(int i = a; i<=b;i++){
-        for(int j = a+1;j<=b;j++){
+        for(int j = i;j<=b;j++){
             if((i^j)>max){
                 max=(i^j);
             }

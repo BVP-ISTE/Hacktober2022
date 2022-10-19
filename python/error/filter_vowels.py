@@ -11,10 +11,10 @@
 # function that filters vowels
 def fun(variable):
     letters = ['a', 'e', 'i', 'o', 'u']
-    if (variabl in letters):
-        return true
-        else:
-            return False
+    if (variable in letters):
+        return True
+    else:
+        return False
 
 
 # sequence
@@ -26,5 +26,5 @@ filtered = filter(fun, sequence)
 print('The filtered letters are:')
 
 for s in filtered:
-    print(y)
+    print(s)
 

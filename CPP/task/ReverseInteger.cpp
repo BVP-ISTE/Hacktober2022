@@ -21,3 +21,24 @@
 // Constraints:
 
 // -231 <= x <= 231 - 1
+
+# include <iostream>
+using namespace std;
+int reverse_int(int n)
+{
+    int rev=0;
+    while(n>0)
+    {
+        int digit=n%10;
+        rev*=10;
+        rev+=digit;
+        n/=10;
+    }
+    return rev;
+}
+int main()
+{
+    int a;
+    cin>>a;
+    int b=reverse_int(a);
+    cout<<b;

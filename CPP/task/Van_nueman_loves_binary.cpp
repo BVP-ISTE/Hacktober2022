@@ -13,4 +13,22 @@
 15
 6
 63*/
-
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main() {
+	int n,f=0,c=0,t;
+    cin>>t;
+    for(int i=0;i<t;i++){
+        cin>>n;
+        f=0;
+        c=0;
+        while(n!=0){
+            f=f+((n%10)*pow(2,c));
+            c++;
+            n=n/10;
+        }
+        cout<<f<<endl;
+    }
+	return 0;
+}
