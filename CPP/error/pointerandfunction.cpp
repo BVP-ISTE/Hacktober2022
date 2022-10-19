@@ -1,12 +1,11 @@
 #include<iostream>
 using namespace std;
-void square(int *p){
-    int a = 10;
-    p = &a;
+int square(int *p){
     *p = (*p) * (*p);
+    return *p;
 }
 int main(){
     int a = 10;
-    square(&a);
-    cout<< a <<endl;
+    
+    cout<< square(&a) <<endl;
 }
