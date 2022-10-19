@@ -14,6 +14,7 @@ bool ispallindrome(char a[])
             return false;
         }
         j--;
+        i++;
     }
 
     return true;
@@ -21,7 +22,7 @@ bool ispallindrome(char a[])
 
 int main()
 {
-    char a(1000);
+    char a[1000];
     cin >> a;
     if (ispallindrome(a) == true)
     {
