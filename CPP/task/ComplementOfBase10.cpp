@@ -15,3 +15,26 @@
 // Input: n = 7
 // Output: 0
 // Explanation: 7 is "111" in binary, with complement "000" in binary, which is 0 in base-10.
+
+#include <bits/stdc++.h>
+using namespace std;
+
+// Function 
+int findComplement(int num)
+{
+	int ans = 0;
+	for (int i = 0; num > 0; i++) {
+		ans += pow(2, i) * (!(num % 2));
+		num /= 2;
+	}
+	return ans;
+}
+
+// Driver code
+int main()
+{
+	int N ;
+    cin>>N;
+	cout << findComplement(N);
+	return 0;
+}
