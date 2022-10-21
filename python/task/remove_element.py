@@ -13,3 +13,25 @@
 # Explanation: Your function should return k = 5, with the first five elements of nums containing 0, 0, 1, 3, and 4.
 # Note that the five elements can be returned in any order.
 # It does not matter what you leave beyond the returned k (hence they are underscores).
+class Solution(object):
+    def removeElement(self, nums, val):
+        a = len(nums)
+        j = a-1
+        i = 0
+        while i<j:
+            while(nums[j]==val and j>=0):
+                j-=1
+            if nums[i] == val and j>=i:
+                nums[i] = nums[j]
+                j -=1
+            i+=1
+        while(len(nums)!=0 and nums[j]==val and j>=0 ):
+                j-=1
+        if(j==0):
+            if nums[0] != val:
+                return 1
+            else: 
+                return 0
+        else:
+            return j+1
+            
