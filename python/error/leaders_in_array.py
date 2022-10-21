@@ -10,7 +10,7 @@ def printLeaders(arr,n):
     for i in range(0,n):
         l=True
         for j in range(i+1,n):
-            if arr[j]<arr[i]:
+            if arr[j]>arr[i]:#I have changed greater than to smaller than sign
                 l=False
                 break
         if l:
