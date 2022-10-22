@@ -10,3 +10,32 @@
 # Input: x = 8
 # Output: 2
 # Explanation: The square root of 8 is 2.82842..., and since the decimal part is truncated, 2 is returned.
+
+# Python3 program to find floor(sqrt(x)
+
+# Returns floor of square root of x
+
+
+def floorSqrt(x):
+
+	# Base cases
+	if (x == 0 or x == 1):
+		return x
+
+	# Starting from 1, try all numbers until
+	# i*i is greater than or equal to x.
+	i = 1
+	result = 1
+	while (result <= x):
+
+		i += 1
+		result = i * i
+
+	return i - 1
+
+
+# Driver Code
+x = 11
+print(floorSqrt(x))
+
+
