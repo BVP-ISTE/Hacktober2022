@@ -58,15 +58,15 @@ void printrightview(node*root,int level,int &maxlevel){
         return;
     }
 
-    if(maxlevel>level){
+    if(maxlevel<level){
         cout<<root->data<<" ";
         maxlevel = level;
     }
 
     //right
     //left
-    printrightview(root->left,level+1,maxlevel);
     printrightview(root->right,level+1,maxlevel);
+    printrightview(root->left,level+1,maxlevel);
 }
 int main(){
     node*root = NULL;
