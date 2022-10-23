@@ -15,3 +15,9 @@
 # 1. 1 step + 1 step + 1 step
 # 2. 1 step + 2 steps
 # 3. 2 steps + 1 step
+
+def climbStairs(self, n):
+    a, b = 1, 1
+    for i in range(n):
+        a, b = b, a + b
+    return a
