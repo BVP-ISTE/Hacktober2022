@@ -9,8 +9,7 @@ int main()
  cin >> num;
 
  n = num;
-//error in the below segment
-//-------------
+
  do
  {
  digit = num % 10;
