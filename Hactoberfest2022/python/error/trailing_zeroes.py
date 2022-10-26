@@ -15,3 +15,5 @@ while num>=0:
     
 print(ans)
 
+
+# %%

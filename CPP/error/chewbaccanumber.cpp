@@ -16,11 +16,11 @@ int chewbaccanum(int n)
     {
         int digit = n % 10;
         int newdigit = 9 - digit;
-        if (newdigit > digit)
+        if (newdigit < digit)
         {
             if (0 < n && n < 10)
             {
-                if (digit = 9 && newdigit = 0)
+                if (digit == 9 && newdigit == 0)
                 {
                     no += digit * i;
                 }

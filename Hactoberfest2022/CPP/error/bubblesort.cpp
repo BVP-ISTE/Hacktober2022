@@ -19,11 +19,7 @@ void bubblesortrec(int *a, int n, int i)
         }
     }
 
-
-
-
-
-bubblesortrec(a, n, i);
+    bubblesortrec(a, n, i + 1);
 }
 
 void printrec(int *a, int n)
@@ -37,7 +33,7 @@ void printrec(int *a, int n)
 int main()
 {
     int a[] = {6, 3, 2, 4, 5};
-    int n = sizeof(a) / sizeof(int);
+    int n = sizeof(a) / sizeof(a[0]);
     printrec(a, n);
 
     cout<<endl; 
