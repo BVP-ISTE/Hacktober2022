@@ -42,5 +42,8 @@ n = 7
 printPascal(n)
 
 
+  ![pascals](https://user-images.githubusercontent.com/73175318/198242552-959f444d-e7eb-4312-bea7-bd987061ed25.PNG)
+
+
 
 
