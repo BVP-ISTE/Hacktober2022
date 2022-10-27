@@ -21,3 +21,4 @@ def climbStairs(self, n):
     for i in range(n):
         a, b = b, a + b
     return a
+![Screenshot 2022-10-27 at 7 02 49 PM](https://user-images.githubusercontent.com/56229707/198299034-601eac85-8393-4212-ac07-9b6cbe7673eb.png)
