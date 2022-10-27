@@ -2,7 +2,27 @@
 
 // An integer n is a power of two, if there exists an integer x such that n == 2x.
 
+ #include <iostream>
+ #include <cmath>
+ using namespace std;
+
+ checkPowerof2 (int n) {
+
+    if (n == 0)
+        return false;
  
+    return (ceil(log2(n)) == floor(log2(n)));
+ }
+
+ int main () {
+
+    int n;
+    cin >> n;
+
+    (checkPowerof2(n) == 1) ? cout << "true" : cout << "false";
+
+    return 0;
+ }
 
 // Example 1:
 
