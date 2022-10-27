@@ -7,3 +7,5 @@
 
 def isIsomorphic(self, s, t):
         return len(set(zip(s, t))) == len(set(s)) and len(set(zip(t, s))) == len(set(t))
+        
+![Screenshot 2022-10-27 at 7 28 10 PM](https://user-images.githubusercontent.com/56229707/198305372-8ec0959b-ae83-46c4-bbfe-b3f8a0a9e45b.png)
