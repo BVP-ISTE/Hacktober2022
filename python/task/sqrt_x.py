@@ -39,3 +39,7 @@ x = 11
 print(floorSqrt(x))
 
 
+![sqrt x](https://user-images.githubusercontent.com/73175318/198243580-9d901126-205f-4406-b36b-ababcdb0bd61.PNG)
+
+
+
