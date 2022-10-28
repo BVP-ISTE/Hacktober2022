@@ -6,18 +6,14 @@
 
 # Count occurrence of a character in a Python string
 
-count = 0
-test_str = "The Udacity Udacity" 
-for i in test_str:
-    if i == 'e':
-        count = count + 1
-  
-# printing result 
-print ("Count of e in The Udacity Udacity is : "
-                            +  str(count))
 
+### ----- Uncomment below 2 lines if you want to use static sentences. 
+sentence = 'The Udacity Udacity'
+ch = 'u'
 
+### ----- Uncomment below 2 lines if you like to use custome sentences and characters. s
+# sentence = input("Enter a valid sentence : ")
+# ch = input("Enter a character to search occurance of in the above sentence : ")
 
-
-![Screenshot 2022-10-27 at 7 35 49 PM](https://user-images.githubusercontent.com/56229707/198307526-0e16b84c-cacd-4609-98ff-64019590aa80.png)
-
+ch_occurance = sentence.lower().count(ch)
+print("The world '%s' appears %s times in the sentence %s" %(ch, ch_occurance, sentence))
