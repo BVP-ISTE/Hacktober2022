@@ -6,6 +6,7 @@
 
 # Count occurrence of a character in a Python string
 
+
 ### ----- Uncomment below 2 lines if you want to use static sentences. 
 sentence = 'The Udacity Udacity'
 ch = 'u'

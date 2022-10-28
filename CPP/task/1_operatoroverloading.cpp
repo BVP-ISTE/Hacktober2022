@@ -38,7 +38,8 @@ public:
     }
 
     void add(Complex &x){
-     
+        real += x.real ; 
+        img +=x.img ;  
     }
     
     void print(){
@@ -55,11 +56,16 @@ public:
 
 
 istream& operator>>(istream &cin,Complex &x){
-   
+   int r, i ; 
+   cin >> r >> i ; 
+    x.setreal(r) ; 
+    x.setimg(i) ;
+    return cin ; 
 }
 
 ostream& operator<<(ostream &cout,Complex &x){
-    
+    x.print(); 
+    return cout ; 
 }
 
 int main()

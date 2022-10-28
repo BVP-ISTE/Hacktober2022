@@ -23,45 +23,42 @@
 // 2 
 // 5 
 // Invalid operation. Try again.
-#include <iostream>
-using namespace std;
-int main() {
-    long long int a,b,c;
-    char ch;
 
+#include<iostream>
+using namespace std;
+
+int main(){
+    char ch;
     cin>>ch;
-while(ch!='x'&&ch!='X'){
-    if (ch=='+')
+    int N1,N2;
+    cin>>N1>>N2;
+    cout<<"Num 1 is:"<<" "<<N1<<endl;
+    cout<<"Num 2 is:"<<" "<<N2<<endl;
+
+
+    switch (ch)
     {
-        cin>>a>>b;
-        c=a+b;
-        cout<<c<<endl;
+    case '+':
+    cout<<N1 + N2;
+        break;
+
+    case '-':
+    cout<<N1 - N2;
+        break;
+
+    case '*':
+    cout<<N1 *  N2;
+        break;
+
+    case '/':
+    cout<<N1 / N2;
+        break;
+    
+    default:
+    cout<<"Invalid Operation";
+        break;
     }
-    else if(ch=='-')
-    {
-        cin>>a>>b;
-        c=a-b;
-        cout<<c<<endl;
-    }
-     else if(ch=='*') {
-        cin>>a>>b;
-        c=a*b;
-        cout<<c<<endl;
-    }
-    else if(ch=='%') {
-        cin>>a>>b;
-        c=a%b;
-        cout<<c<<endl;
-    }
-    else if(ch=='/')
-    {
-        cin>>a>>b;
-        c=a/b;
-        cout<<c<<endl;
-    }
-    else
-    cout<<"Invalid operation. Try again."<<endl;
-    cin>>ch;
-}
+
+
 return 0;
 }

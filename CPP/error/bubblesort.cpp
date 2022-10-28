@@ -23,7 +23,7 @@ void bubblesortrec(int *a, int n, int i)
 
 
 
-bubblesortrec(a, n, i);
+bubblesortrec(a, n, i+1);
 }
 
 void printrec(int *a, int n)
