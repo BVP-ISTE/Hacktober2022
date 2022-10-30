@@ -14,16 +14,9 @@
 #         self.next = next
 class Solution:
     def deleteDuplicates(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        if head == None:
-            return head
-        t = head
-        ans = head
-        a = -101
-        while(t.next != None):
-            if t.next.val != t.val or t.val == a:
-                head.next = t.next
-                head = head.next
-                a = t.val
-            t = t.next
-        head.next = None
-        return ans
+        cur = head
+        while cur:
+            while cur.next and cur.next.val == cur.val:
+                cur.next = cur.next.next     # skip duplicated node
+            cur = cur.next     # not duplicate of current node, move to next node
+        return head
