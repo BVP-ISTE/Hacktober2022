@@ -1,16 +1,9 @@
-public class Solution {
-    public int[] TwoSum(int[] nums, int target) {
-        Array.Sort(nums);
-        int left = 0, right = nums.Length - 1;
-        while(left < right)
-        {
-            if(nums[left] + nums[right] > target)
-                right--;
-            else if(nums[left] + nums[right] < target)
-                left++;
-            else
-                return new int[] {left, right};
-        }
-        return null;
-    }
-}
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        seen = {}
+        for i, b in enumerate(nums):
+            # a + b = target -> a = target - b
+            a = target - b
+            if a in seen:
+                return [seen[a], i]
+            seen[b] = i
